@@ -1,0 +1,49 @@
+# === PYTHON / FASTAPI ===
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# === NODE.JS / NEXT.JS ===
+ai-frontend/node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+bun.lockb
+
+# Build
+build/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# === CUSTOM ===
+chat_history.json
